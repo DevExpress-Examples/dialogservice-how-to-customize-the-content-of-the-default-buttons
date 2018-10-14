@@ -1,8 +1,7 @@
-﻿using System.Threading.Tasks;
-using DevExpress.Mvvm;
-using DevExpress.Mvvm.UI;
+﻿using DevExpress.Mvvm;
 
-namespace dxDialog1.ViewModels {
+namespace dxDialog1.ViewModels
+{
     public class DialogViewModel : ViewModelBase {
 
     }
