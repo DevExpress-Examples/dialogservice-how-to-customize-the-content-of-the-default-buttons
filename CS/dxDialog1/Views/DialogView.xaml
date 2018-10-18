@@ -10,7 +10,7 @@
 
     <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center"
                TextAlignment="Center"
-               Text="The standard Yes, No, and Cancel buttons shown below are customized with the help of corresponding DialogButtonContentModifiers."
+               Text="These standard Yes, No, and Cancel buttons were customized by corresponding DialogButtonContentModifiers:"
                TextWrapping="WrapWholeWords"
                Margin="30,0"/>
 

@@ -17,23 +17,11 @@
 
     <dxmvvm:Interaction.Behaviors>
         <dxmvvmui:DialogService >
-    <dxmvvmui:DialogService.ButtonContentModifiers>
-                <dxmvvmui:DialogButtonContentModifier Id="Yes" Content="Positive"  >
-                    <dxmvvmui:DialogButtonContentModifier.Icon>
-                        <SymbolIcon Symbol="Like" Foreground="Green"/>
-                    </dxmvvmui:DialogButtonContentModifier.Icon>
-                </dxmvvmui:DialogButtonContentModifier>
-                <dxmvvmui:DialogButtonContentModifier Id="No" Content="Negative"  >
-                    <dxmvvmui:DialogButtonContentModifier.Icon>
-                        <SymbolIcon Symbol="Dislike" Foreground="Red"/>
-                    </dxmvvmui:DialogButtonContentModifier.Icon>
-                </dxmvvmui:DialogButtonContentModifier>
-                <dxmvvmui:DialogButtonContentModifier Id="Cancel" Content="Doesn't matter"  >
-                    <dxmvvmui:DialogButtonContentModifier.Icon>
-                        <SymbolIcon Symbol="LikeDislike" Foreground="Gray"/>
-                    </dxmvvmui:DialogButtonContentModifier.Icon>
-                </dxmvvmui:DialogButtonContentModifier>
-    </dxmvvmui:DialogService.ButtonContentModifiers>
+            <dxmvvmui:DialogService.ButtonContentModifiers>
+                <dxmvvmui:DialogButtonContentModifier Id="Yes" Content="Positive" Symbol="Like" IconForeground="Green"/>
+                <dxmvvmui:DialogButtonContentModifier Id="No" Content="Negative"  Symbol="Dislike" IconForeground="Red"/>
+                <dxmvvmui:DialogButtonContentModifier Id="Cancel" Content="Doesn't matter"  Symbol="LikeDislike" IconForeground="Gray"/>
+            </dxmvvmui:DialogService.ButtonContentModifiers>
             <dxmvvmui:DialogService.ViewTemplate>
                 <DataTemplate>
                     <Views:DialogView />
