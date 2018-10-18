@@ -1,4 +1,4 @@
-#DialogService - How to customize the content of the default buttons
+# DialogService - How to customize the content of the default buttons
  
 In this example, you can see how to show custom text in the default buttons displayed in DialogService's dialog.
 
