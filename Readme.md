@@ -6,7 +6,7 @@ The **DialogService** class provides a special **DialogButtonContentModifiers** 
  
 * **XAML:**
  
-```
+```xaml
 <dxmvvmui:DialogService.ButtonContentModifiers>
     <dxmvvmui:DialogButtonContentModifier Id="Yes" Content="Positive" Symbol="Like" IconForeground="Green"/>
     <dxmvvmui:DialogButtonContentModifier Id="No" Content="Negative"  Symbol="Dislike" IconForeground="Red"/>
